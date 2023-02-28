@@ -19,4 +19,4 @@ While this is very slow, it works without having to set up an SQL server.
 So, if you're even more adventurous you can set `$useMySQL = true;` and try the same with a much faster generation time.
 For this to work you need to figure out how to convert the `.krn` and `.var` files into the format that is [implied by the query](https://github.com/flxai/kindergarten-typography/blob/main/site/index.php#L96-L102).
 
-PRs are very welcom! ❤️
+PRs are very welcome! ❤️
