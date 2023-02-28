@@ -1,0 +1,201 @@
+/* kindergarten.css */
+* {
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 18px;
+	font-family: "Arial", sans;
+}
+
+html,body {
+	height: 100%;
+}
+.dark {	
+	background: url(bg.jpg) repeat center;
+}
+.light {	
+	background: black;
+}
+
+body {
+	text-align: center;
+	min-width: 800px;
+	min-height: 600px;
+}
+
+form {
+	margin-top: 12px;
+	padding: 8px;
+	width: 636px;
+}
+
+
+input,
+.load {
+	border: 0;
+	border-radius: 10px;
+	-webkit-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	-moz-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	padding: 12px;
+	background: rgba(255,255,255,0.7);
+}
+input, form div div input, .load {
+	font-size: 17px;
+}
+form div div p,
+form div div p span {
+	font-size: 14px;
+	color: #655;
+}
+
+input[type=text] {
+	width: 436px;
+	padding-left: 16px!important;
+	padding-right: 16px!important;
+}
+
+input[type=submit] {
+	width: 142px;
+}
+
+input[type=checkbox] {
+	/*width: 120px;*/
+	margin: 2px 8px 0 0;
+	background-color: white !important;
+	text-align: left !important;
+	float: left !important;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+div#credits {
+	position: absolute;
+	bottom: 26px;
+	right: 32px;
+	text-align: left;
+	color: grey;
+	/*width: 420px;*/
+}
+
+/*
+#dino {
+	background:url("dino.png") no-repeat center center;
+	width: 102px;
+	height: 96px;
+	padding-right: 18px;
+	float: left;
+}
+*/
+
+#credits p {
+	font-size: 14px;
+	color: grey;
+}
+
+.underline {
+	text-decoration: underline;
+	color: #79d!important;
+}
+.left,
+.formLeft,
+.formRight {
+	/*margin: 9px 20px 9px 2px;*/
+	float: left !important;
+}
+.right {
+	float: right !important;
+	margin-right: 0;
+}
+
+/*
+form div {
+	margin-bottom: 6px;
+}
+*/
+
+form div p.left,
+form div p.right,
+form div a {
+	font-size: 14px;
+	/*color: red!important;*/
+	padding: 12px;
+	/*margin: 12px 18px 12px 0;*/
+}
+form div a {
+	text-decoration: none!important;
+}
+form div .char {
+	padding: 10px;
+	margin: 0;
+	line-height: 42px;
+	border-radius: 10px;
+}
+
+/*form div p.left,
+form div p.right,
+form div a.left,
+form div a.right,*/
+.border {
+	border: 0;
+	border-radius: 10px;
+	-webkit-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	-moz-box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	box-shadow: 
+	  inset 0 0 8px  rgba(0,0,0,0.1),
+			0 0 8px rgba(0,0,0,0.1); 
+	padding: 12px;
+	background: rgba(255,255,255,0.7);
+	color: silver!important;
+	width: 250px;
+	float: right;
+	display: none;
+}
+.formLeft div,
+.border {
+	clear: both;
+}
+.border {
+	padding: 4px;
+}
+.menuGap {
+	margin-bottom: 12px;
+}
+.formLeft {
+	width: 462px;
+}
+.formRight {
+	margin-left: 32px;
+}
+.load {
+	width: 120px;
+	display: none;
+	padding: 13px 8px 13px 12px;
+}
+.loadimg {
+	background: url("load.gif") no-repeat left center;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 2px 0 0 6px;
+}
+
+/* HIDE CREDITS
+div#credits {
+	display: none;
+} */

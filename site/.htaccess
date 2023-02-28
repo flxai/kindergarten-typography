@@ -1,0 +1,4 @@
+RewriteEngine On 
+
+RewriteRule ^about$ index.php?about=true [L]
+
